@@ -46,15 +46,17 @@ h1 {
   border: 4px green solid;
 
   /* can't use yet */
-  /*gap: 100px;*/
+  gap: 100px;
 }
 
 .col {
   /* these are now flex items */
   display: flex;
   flex-direction: column;
+  text-align: center;
   width: 100%;
-  border: 4px red solid;
+  color: #fff;
+  background-color: #136c72;
 }
 
 .col + .col {
@@ -69,6 +71,10 @@ h1 {
 
 .hero__text {
   width: 62%;
+}
+
+.secondary__text h2 {
+  color: #136c72;
 }
 
 .hero__img {
